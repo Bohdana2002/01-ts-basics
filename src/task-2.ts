@@ -4,7 +4,7 @@ interface Product {
   description?: string;
 }
 
-const product = {
+const product: Product = {
   id: 1,
   title: "Tablet",
   description: "Compact and fast",
